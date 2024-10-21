@@ -30,7 +30,8 @@ def on_message(client, userdata, message):
 
 
 
-st.title("MQTT Control")
+st.title("🛰️MQTT Control🛰️")
+st.write("Esta pagina es para conectar tu aparato y que funcione.")
 
 if st.button('ON'):
     act1="ON"
